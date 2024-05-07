@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root 
+{
+    --green: #088F33;
+    --darkgreen: #0B732B;
+    --white: #fff;
+    --orange: #fda604;
+}
+p 
+{
+    line-height: 1.7;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    font-family: "Open Sans", sans-serif;
+    background: #F1F1F1;
+}
+h1,h2,h3,h4,h5,h6 
+{
+    font-weight: 800;
+}
+a 
+{
+    text-decoration: none;
+}
+ul 
+{
+    list-style: none;
+}
+.con 
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.top 
+{
+    background: var(--green);
+    padding: 10px 0;
+    color: var(--white);
+    font-size: 13px;
+}
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top ul 
+{
+    display: flex;
+    gap: 10px;
+}
+.social a 
+{
+    color: var(--green);
+    background: var(--white);
+    display: block;
+    padding: 4px 10px;
+    border-radius: 50%;
+}
+.social a:hover 
+{
+    background: var(--orange);
+    color: var(--white);
+}
+.info a 
+{
+    color: var(--white);
+}
+header 
+{
+    background: var(--darkgreen);
+}
+nav ul 
+{
+    display: flex;
+}
+.logo 
+{
+    position: absolute;
+    top: -10px;
+    border: 5px solid var(--orange);
+    z-index: 9999;
+}
+ nav li a 
+ {
+    padding:25px 20px;
+    color: var(--white);
+    display: inline-block;
+ }
+ nav li a:hover 
+ {
+    background: var(--orange);
+ }
+ .banner img 
+ {
+    width: 100%;
+ }
+ .banner 
+ {
+    position: relative;
+ }
+ .banner-content
+ {
+    position: absolute;
+    right: 5%;
+    bottom: 40%;
+    color: var(--white);
+ }
+ .btn 
+ {
+    display: inline-block;
+    background: var(--orange);
+    color: var(--white);
+    padding: 15px;
+ }
+ .banner-content p 
+ {
+    padding: 20px 0;
+ }
+ .wlc
+ {
+    padding: 35px 0;
+ }
+ .wlc  h4 
+ {
+    background: var(--green);
+    color: var(--white);
+    padding: 6px;
+ }
+ .flex1
+ {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+ }
+ .wlc-left 
+ {
+    width: 70%;
+ }
+ .wlc-right
+ {
+    width: 25%;
+ }
+ .wlc-right li::before{
+    content: '→';
+ }
+ .wlc-right  ul 
+ {
+    padding: 15px 0;
+ }
+ .featured
+ {
+    padding: 35px 0;
+    border-top: 2px solid #ccc;
+ }
+ .featured h3
+ {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+ }
+ .card-img
+ {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+ }
+ .card-img img 
+ {
+    width: 100%;
+    height: 100%;
+    transition: 0.9s;
+ }
+ .card-img h3 
+ {
+    position: absolute;
+    color: var(--white);
+background: var(--green);
+padding: 5px;
+bottom: 0;
+left: 0;
+ }
+ .card-img img:hover 
+ {
+    transform: scale(1.2);
+ }
+ .trip
+ {
+    padding: 25px 0;
+ }
+ .trip ul 
+ {
+    display: flex;
+    justify-content: center;
+
+ }
+ .trip ul li 
+ {
+  font-size: 14px;
+  padding: 30px 0;
+ }
+ .title 
+ {
+    text-align:center;
+ }
+ .trip ul li a 
+ {
+    background: var(--green);
+    color: var(--white);
+ }
+ .trip ul li a:hover 
+ {
+    background: var(--orange);
+ }
+ .content
+ {
+    position: relative;
+    width:32%;
+ }
+ .contentbox
+ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:rgba(0, 128, 0, 0.643);
+    color: var(--white);
+    width: 100%;
+    padding: 10px;
+ }
+ .content img 
+ {
+    width: 100%;
+ }
+ .fwrap
+ {
+    flex-wrap: wrap;
+    gap: 20px;
+ }
+ footer 
+ {
+    background: #333333;
+    color: #fff;
+    padding: 30px 0;
+ }
+ .fbox li 
+ {
+    line-height: 1.7;
+ }
+ .fbox h3 
+ {
+    padding-bottom: 20px;
+ }
+ .copyright
+ {
+    background: var(--green);
+    color: var(--white);
+    padding: 10px 0;
+ }
+ .search
+ {
+    width:900px;
+    background: var(--white);
+   
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+ }
+ select
+ {
+    background: transparent;
+    padding: 5px;
+    border: 1px solid var(--darkgreen);
+ }
+ .ttt 
+ {
+    background: #088F33;
+    color: var(--white);
+    padding: 30px;
+ }
